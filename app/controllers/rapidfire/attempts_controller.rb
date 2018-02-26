@@ -54,7 +54,7 @@ module Rapidfire
     #     end
     #   end
     def after_answer_path_for
-      surveys_path
+      main_app.root_path
     end
 
     def rapidfire_current_scoped
