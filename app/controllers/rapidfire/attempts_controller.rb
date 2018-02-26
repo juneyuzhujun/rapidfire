@@ -54,6 +54,7 @@ module Rapidfire
     #     end
     #   end
     def after_answer_path_for
+      flash[:success] = "Thank you for submitting the survey!"
       main_app.root_path
     end
 
