@@ -5,8 +5,6 @@ module Rapidfire
     else
       before_filter :find_survey!
     end
-    
-    def 
 
     def new
       @attempt_builder = AttemptBuilder.new(attempt_params)
